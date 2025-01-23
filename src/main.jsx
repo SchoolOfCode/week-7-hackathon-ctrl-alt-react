@@ -6,6 +6,7 @@ import Cards from './flashcards/flashcard.jsx'
 import Header from './header/header.jsx'
 import Footer  from './footer/footer.jsx'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
