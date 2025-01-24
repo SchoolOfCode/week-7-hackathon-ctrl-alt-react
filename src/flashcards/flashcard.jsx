@@ -13,7 +13,7 @@ export default function FlashCard({question, answer}) {
       <button className={showQuestion ? "question" : "answer"} onClick={handleFlip}>
         {showQuestion ? question : answer}
       </button>
-      <p>Click the button to flip between question and answer!</p>
+      
     </div>
   );
 }
