@@ -11,6 +11,7 @@ export default function Header() {
                 </a>
         <h2> React Flashcards </h2>
         <p>🧠 Expand your React knowledge, one flashcard at a time 🐌 </p>
+        <p>Click the button to flip between question and answer!</p>
         </div>
     )
 }
