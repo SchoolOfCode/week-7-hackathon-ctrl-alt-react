@@ -11,7 +11,7 @@
     flex-direction: row;   
     background-color: #1e1e2f;              
     justify-content: center;
-    width: 1000%;                
+    width: 100%;                
     padding: 20px;              
     box-sizing: border-box;
     flex-wrap: nowrap;
@@ -60,6 +60,3 @@ answer .close-button {
     transition: color 0.2s ease;
 }
 
-button .close-button:hover {
-    color: #ff3838;
-}

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./flashcard.css";
 
-export default function Cards() {
+
+export default function Form() {
     const [question, setQuestion] = useState(true); // tracks whether to show question or answer
     const [userQuestion, setUserQuestion] = useState(""); // stores the user-provided question
     const [userAnswer, setUserAnswer] = useState(""); // stores the user-provided answer
