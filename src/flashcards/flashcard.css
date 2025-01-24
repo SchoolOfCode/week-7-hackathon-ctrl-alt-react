@@ -1,21 +1,36 @@
-.flashcards-container {
+/* .flex-container{
     display: flex;
     gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 20px;
-    background-color: #1e1e2f; /* Dark background color to match the image */
-}
+    background-color: #1e1e2f; 
+} */
 
+.flex-container {
+    display: flex;
+    flex-direction: row;   
+    background-color: #1e1e2f;              
+    justify-content: center;
+    width: 1000%;                
+    padding: 20px;              
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+             
+  }
+
+
+
+  
 /* Card Styles */
-.flashcard {
+button {
     width: 200px;
     height: 150px;
     background-color: #2c2c3d; /* Slightly darker card background */
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    position: relative;
     justify-content: center;
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -27,18 +42,14 @@
 }
 
 /* Add hover effect */
-.flashcard:hover {
+button :hover {
     transform: scale(1.05);
 }
 
-/* Emoji Styling */
-.flashcard .emoji {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
+
 
 /* Close Button Styling */
-.flashcard .close-button {
+answer .close-button {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -48,6 +59,6 @@
     transition: color 0.2s ease;
 }
 
-.flashcard .close-button:hover {
+button .close-button:hover {
     color: #ff3838;
 }
