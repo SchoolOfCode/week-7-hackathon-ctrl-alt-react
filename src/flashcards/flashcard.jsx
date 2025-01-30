@@ -9,10 +9,10 @@ export default function FlashCard({question, answer}) {
   }
 
   return (
-    <div className="flex-container">
-      <button className={showQuestion ? "question" : "answer"} onClick={handleFlip}>
+   
+      <button  className="{showQuestion ? 'question' : 'answer'} flashCard" onClick={handleFlip}>
         {showQuestion ? question : answer}
       </button>
-    </div>
+    
   );
 }

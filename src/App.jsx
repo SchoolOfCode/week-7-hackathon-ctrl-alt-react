@@ -15,9 +15,11 @@ function App() {
   return <>
     <Header />
     <Form />
+      <div className="flex-container">
     <FlashCard question={data[0].question} answer={data[0].answer}/>
     <FlashCard question={data[1].question} answer={data[1].answer}/>
     <FlashCard question={data[2].question} answer={data[2].answer}/>
+      </div>
     <Footer />
   </>
 }

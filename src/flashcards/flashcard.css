@@ -14,7 +14,7 @@
     width: 100%;                
     padding: 20px;              
     box-sizing: border-box;
-    flex-wrap: nowrap;
+    gap: 10px;
              
   }
 
@@ -22,7 +22,7 @@
 
   
 /* Card Styles */
-button {
+button.flashCard {
     width: 200px;
     height: 150px;
     background-color: #2c2c3d; /* Slightly darker card background */
@@ -30,7 +30,6 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
     justify-content: center;
   }
   .question {
